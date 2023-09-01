@@ -41,9 +41,11 @@ In a pull request, type the following commands in a comment:
 - [OpenAI API](https://beta.openai.com/docs/introduction)
 
 ## Working Demo
-<video height="380" controls>
-  <source src="./assets/working-demo.mkv" type="video/mkv">
-</video>
+
+
+https://github.com/darthsalad/codemate-task/assets/75924053/16aef419-e82e-409a-b954-201d65c7b2ad
+
+
 
 ## Author
 - [darthsalad](https://github.com/darthsalad)

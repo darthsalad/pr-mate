@@ -17,6 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "langchain": "^0.0.139",
     "node-fetch": "^2.6.7",
     "probot": "^12.2.4"
   },

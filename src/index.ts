@@ -1,6 +1,6 @@
 import { Probot } from "probot";
 import * as data from "../languages.json";
-import fetch from "node-fetch";
+const fetch = require("node-fetch");
 
 type Lang = {
   aliases: string[];
@@ -74,7 +74,6 @@ const checkLanguage = async (language: string, content: string) => {
 
   if (!res.ok) {
     const message: any = await res.json();
-    console.log(message);
     return message.message;
   }
   const response: any = await res.json();

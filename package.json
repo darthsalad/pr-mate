@@ -13,11 +13,11 @@
   ],
   "scripts": {
     "build": "tsc",
-    "start": "probot run ./lib/index.js",
+    "start": "probot run ./lib/src/index.js",
     "test": "jest"
   },
   "dependencies": {
-    "node-fetch": "^3.3.2",
+    "node-fetch": "^2.6.7",
     "probot": "^12.2.4"
   },
   "devDependencies": {

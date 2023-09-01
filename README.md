@@ -35,24 +35,27 @@ In a pull request, type the following commands in a comment:
 - ### `/explain`
   ![Code Explanation](./assets/explain-command.png)
 
-## References
-- [GitHub REST API](https://docs.github.com/en/rest)
-- [Piston API](https://piston.readthedocs.io/en/latest/api-v2/)
-- [OpenAI API](https://beta.openai.com/docs/introduction)
-
-## Working Demo
+## Working Demo 
+(In case of video not loading, you can watch it here: [link](https://drive.google.com/file/d/1S5vkE4KYedRFOejFu82O8-HcrIlg3m-B/view?usp=sharing))
 
 
 https://github.com/darthsalad/codemate-task/assets/75924053/16aef419-e82e-409a-b954-201d65c7b2ad
 
 
+## Report
+You can read the project report [here](./REPORT.md)
+
+## References
+- [GitHub REST API](https://docs.github.com/en/rest)
+- [Piston API](https://piston.readthedocs.io/en/latest/api-v2/)
+- [OpenAI API](https://beta.openai.com/docs/introduction)
 
 ## Author
 - [darthsalad](https://github.com/darthsalad)
 
 ## Contributing
 
-If you have suggestions for how pr-mate could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
+If you have suggestions for how `pr-mate` could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
 

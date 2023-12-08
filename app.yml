@@ -15,14 +15,14 @@
 default_events:
   # - check_run
   # - check_suite
-  # - commit_comment
+  - commit_comment
   # - create
   # - delete
   # - deployment
   # - deployment_status
   # - fork
   # - gollum
-  # - issue_comment
+  - issue_comment
   - issues
 # - label
 # - milestone
@@ -34,13 +34,13 @@ default_events:
 # - project
 # - project_card
 # - project_column
-# - public
-# - pull_request
+  - public
+  - pull_request
   - pull_request_review
   - pull_request_review_comment
 # - push
 # - release
-# - repository
+  - repository
 # - repository_import
 # - status
 # - team
@@ -62,7 +62,7 @@ default_permissions:
 
   # Repository contents, commits, branches, downloads, releases, and merges.
   # https://developer.github.com/v3/apps/permissions/#permission-on-contents
-  # contents: read
+  contents: write
 
   # Deployments and deployment statuses.
   # https://developer.github.com/v3/apps/permissions/#permission-on-deployments
@@ -74,7 +74,7 @@ default_permissions:
 
   # Search repositories, list collaborators, and access repository metadata.
   # https://developer.github.com/v3/apps/permissions/#metadata-permissions
-  metadata: read
+  metadata: write
 
   # Retrieve Pages statuses, configuration, and builds, as well as create new builds.
   # https://developer.github.com/v3/apps/permissions/#permission-on-pages
@@ -86,7 +86,7 @@ default_permissions:
 
   # Manage the post-receive hooks for a repository.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-hooks
-  # repository_hooks: read
+  repository_hooks: read
 
   # Manage repository projects, columns, and cards.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-projects
